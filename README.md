@@ -2,7 +2,6 @@ The following code can be used to create an automated test for the microservice
 ```pyhton
 The following code can be used to create an automated test for the microservice:
 
-```python
 import requests
 
 # Define endpoints
