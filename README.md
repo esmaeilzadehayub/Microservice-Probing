@@ -55,6 +55,15 @@ COPY test_application.py /
 ENTRYPOINT ["python", "/test_application.py"]
 ```
 
+
+To build and run the container, we can use the following commands:
+
+```bash
+docker build -t test_microservice .
+docker run --rm test_microservice
+```
+
+
 Question 1:
 
 
